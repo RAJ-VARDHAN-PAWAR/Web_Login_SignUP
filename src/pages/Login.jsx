@@ -1,11 +1,16 @@
 import React from 'react'
 import './Login.css'
+import { useNavigate } from 'react-router'
 function Login() {
+    let navigate = useNavigate()
   let [email, setEmail] = React.useState("")
   let [password, setPassword] = React.useState("")
 
   function submitForm(e) {
         e.preventDefault()
+        if(true){
+            navigate("/")
+        }
         alert(`Name: ${email}, Password: ${password}`)
     }
   return (
