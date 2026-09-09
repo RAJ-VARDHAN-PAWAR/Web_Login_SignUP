@@ -32,3 +32,22 @@
   margin: 8px 0;
   color: #555;
 }
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.search-container input {
+  width: 400px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.search-container input:focus {
+  border-color: #555;
+}
